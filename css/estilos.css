@@ -54,7 +54,7 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 150%;
     color: rgb(5, 5, 100);
-    margin: 10px 0px;
+    margin: 20px 0px 20px 0px;
     padding-bottom: 15px;
 }
 
@@ -67,6 +67,10 @@ h2 {
 }
 
 /* INSTITUCIONAL */
+
+.container-fluid {
+    margin-bottom: 20px;
+}
 
 .imgInstitucional {
     border-radius: 8px;
@@ -88,6 +92,10 @@ h2 {
 
 /* SERVICIOS */
 
+.container {
+    margin-bottom: 20px;
+}
+
 .impresion {
     border-radius: 8px;
     box-shadow: 0px 0px 15px #8f8989;
@@ -99,14 +107,19 @@ h2 {
 
 
 .servicosLista {
+    text-align: center;
     list-style: none;
-    display: inline-block;
     margin: 20px;
 
 }
 
 
 /* Portfolio */
+
+.conteinerPortfolio {
+    margin-bottom: 20px;
+
+}
 
 .imgPortfolio {
     display: block;
@@ -125,33 +138,6 @@ text-align: center;
 #portfolioRigth {
     margin-left: 200px;
 }
-
-/* .sectionPortfolio {
-    height: auto;
-    width: 100%;
-    display: flex;
-    margin: 30px 0px 20px 0px;
-    justify-content: center;
-    text-align: center;
-}
-
-.contenedorPortfolio {
-    border-radius: 8px;
-    box-shadow: 0px 0px 15px #8f8989;
-    width: 30%;
-    height: auto;
-    display: block;
-    margin: 20px 10px 10px 10px;
-} */
-
-/* .contenedorPortfolio p {
-    background-color: solid rgb(5, 5, 100);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    font-weight: bold;
-    font-size: 16px;
-    text-transform: uppercase;
-} */
 
 /* CONTACTO */
 

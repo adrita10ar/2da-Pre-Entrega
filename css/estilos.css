@@ -108,11 +108,25 @@ h2 {
 
 /* Portfolio */
 
+.imgPortfolio {
+    display: block;
+    width: 100%;
+    height: 0%;
+}
+
+.card-title {
+text-align: center;
+}
+
+.card {
+    box-shadow: 0px 0px 15px #8f8989;
+}
+
 #portfolioRigth {
     margin-left: 200px;
 }
 
-.sectionPortfolio {
+/* .sectionPortfolio {
     height: auto;
     width: 100%;
     display: flex;
@@ -128,22 +142,16 @@ h2 {
     height: auto;
     display: block;
     margin: 20px 10px 10px 10px;
-}
+} */
 
-.imgPortfolio {
-    display: block;
-    width: 100%;
-    height: 80%;
-}
-
-.contenedorPortfolio p {
+/* .contenedorPortfolio p {
     background-color: solid rgb(5, 5, 100);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
-}
+} */
 
 /* CONTACTO */
 

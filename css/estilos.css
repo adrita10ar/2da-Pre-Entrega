@@ -8,7 +8,7 @@
 header {
     border-bottom: 2px solid black;
     text-align: center;
-    padding: 10px 10px;
+    padding: 0px 0px;
 }
 
 .logo {
@@ -55,6 +55,7 @@ h1 {
     font-size: 150%;
     color: rgb(5, 5, 100);
     margin: 10px 0px;
+    padding-bottom: 15px;
 }
 
 h2 {
@@ -67,26 +68,17 @@ h2 {
 
 /* INSTITUCIONAL */
 
-.logo {
-    width: 170px;
-}
-
-
-.sectionInstitucional {
-    width: 100%;
-    display: flex;
-    margin: 30px;
-}
-
 .imgInstitucional {
     border-radius: 8px;
     box-shadow: 0px 0px 30px #8f8989;
-    width: 45%;
+    width: auto;
+    margin: 20ps 0px 20px 0px;
 }
 
 .parrafoInstitucional {
     width: 50%;
     margin-left: 30px;
+    margin-top: 20px;
 }
 
 #imgInstitucional {
@@ -94,40 +86,17 @@ h2 {
     height: 100%;
 }
 
-.negrita {
-    font-weight: bold;
-    color: brown;
-}
-
-
 /* SERVICIOS */
 
-.sectionServicios {
-    height: auto;
-    width: 100%;
-    display: flex;
-    margin: 30px 0px 20px 0px;
-    justify-content: center;
+.impresion {
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px #8f8989;
     text-align: center;
+    padding: 1rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
-.impresionOffset {
-    border-radius: 8px;
-    box-shadow: 0px 0px 15px #8f8989;
-    width: 30%;
-    height: auto;
-    display: block;
-    margin: 10px 10px 10px 10px;
-}
-
-.impresionDigital {
-    border-radius: 8px;
-    box-shadow: 0px 0px 15px #8f8989;
-    width: 30%;
-    height: auto;
-    display: block;
-    margin: 10px 10px 10px 10px;
-}
 
 .servicosLista {
     list-style: none;

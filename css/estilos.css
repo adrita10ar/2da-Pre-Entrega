@@ -209,18 +209,16 @@ textarea {
 /* FOOTER */
 
 footer {
-    margin: 5px;
-    padding: 0px;
+    margin: 15px;
     border-top: 1px solid rgb(5, 5, 100);
     border-bottom: 1px solid rgb(5, 5, 100);
     text-align: center;
 }
 
 .logoFooter {
-    width: 120px;
+    width: 110px;
     margin: 10px 10px 10px 10px;
 }
-
 
 .social-media {
     margin-top: 25px;
@@ -264,6 +262,6 @@ footer {
 }
 
 .parrafoFooter {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin: 35px 35px 35px 35px;
 }
